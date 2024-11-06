@@ -111,7 +111,6 @@ function updateNote() {
         localStorage.setItem('notes', JSON.stringify(updatedNotes));
 
         editingPopup.remove();
-
         displayNotes();
     }
 }
