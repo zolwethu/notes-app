@@ -26,7 +26,7 @@ body {
 
 #container {
     overflow: hidden;
-    width: 54vw;
+    width: 65vw;
     height: 70vh;
     padding: 20px;
     box-sizing: border-box;
@@ -83,8 +83,8 @@ body {
 }
 
 #addNoteDiv i {
-    font-size: 70px;
-    color: gainsboro;
+    font-size: 80px;
+    color: var(--primary-color);
 }
 
 
@@ -112,8 +112,8 @@ li {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    height: 200px;
-    width: 200px;
+    height: 250px;
+    width: 250px;
     margin: 10px;
     border-radius: 10px;
     color: #E09145;
@@ -163,7 +163,7 @@ li span {
     height: 300px;
     background-color: white;
     border: 1px solid #ccc;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3);
     padding: 20px;
     border-radius: 8px;
     display: flex;
@@ -174,10 +174,21 @@ li span {
 }
 
 textarea {
-    width: 300px;
+    width: 350px;
     height: 200px;
     margin: 10px 0;
     padding: 10px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 2px solid #E09145;
+    font-size: 1rem;
+}
+input{
+    width: 350px;
+    height: 100px;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 1rem;
     box-sizing: border-box;
     border-radius: 4px;
     border: 2px solid #E09145;
@@ -200,7 +211,7 @@ textarea {
 }
 
 #closeBtn {
-    background-color: gainsboro;
+    background-color: #BB2233;
 }
 
 #editing-container {
@@ -235,5 +246,5 @@ textarea {
 }
 
 #closeBtn {
-    background-color: gainsboro;
+    background-color: #BB2233;
 }
