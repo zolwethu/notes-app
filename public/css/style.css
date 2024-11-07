@@ -257,37 +257,55 @@ input:focus, textarea:focus {
     color: #CCD0CF;
     margin-bottom: 10px;
 }
-
-#customAlert {
-    display: none;
+/* Basic Modal Styling */
+#error-popup {
     position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: #BB2233;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+  }
+  
+  .error-modal {
+    background-color: white;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.5);
-    z-index: 9999;
-    width: 400px;
+    max-width: 400px;
+    width: 100%;
     text-align: center;
-}
-
-#customAlert h2 {
-    font-size: 20px;
-    color: #E09145;
-    margin: 0 0 15px;
-}
-
-#customAlert .alertMessage {
-    font-size: 16px;
-    margin-bottom: 20px;
-    color: #CCD0CF;
-}
-
-#customAlert button {
+  }
+  
+  .error-modal h2 {
+    margin-top: 0;
+    color: red;
+  }
+  
+  .error-modal p {
+    margin: 20px 0;
+  }
+  
+  .error-modal button {
+    padding: 10px 15px;
+    background-color: #BB2233;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .error-modal button:hover {
+    background-color: darkred;
+  }
+  
+  /* Style for the "Done" button */
+.doneBtn {
     width: 100px;
-    background-color: #E09145;
+    background-color: #08b132;
     color: #fff;
     font-size: 14px;
     border: none;
@@ -295,11 +313,25 @@ input:focus, textarea:focus {
     padding: 10px;
     cursor: pointer;
     margin: 10px;
-}
+  }
+  
+  .doneBtn:hover {
+    background-color: #45a049;
+  }
+  
 
-/* Strikethrough style for done notes */
-.note.done .note-title,
-.note.done .note-text {
+  .completed .note-title {
     text-decoration: line-through;
-    color: #888;
-}
+    color: gray;
+  }
+  
+  .completed .note-text {
+    text-decoration: line-through;
+    color: gray;
+  }
+  
+  .completed .note-btns {
+    opacity: 0.5; 
+    
+  }
+  
