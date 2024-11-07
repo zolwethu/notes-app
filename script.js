@@ -74,7 +74,7 @@ function editNote(noteId) {
     const notes = JSON.parse(localStorage.getItem('notes')) || [];
     const noteToEdit = notes.find(note => note.id == noteId);
     
-    const noteTitle = noteToEdit ? noteToEdit.text : '';
+    const noteTitle = noteToEdit ? noteToEdit.title : '';
     const noteText = noteToEdit ? noteToEdit.text : '';
     const editingPopup = document.createElement("div");
     
