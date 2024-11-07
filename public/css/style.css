@@ -26,7 +26,7 @@ body {
 
 #container {
     overflow: hidden;
-    width: 65vw;
+    width: 55vw;
     height: 70vh;
     padding: 20px;
     box-sizing: border-box;
@@ -301,7 +301,7 @@ input:focus, textarea:focus {
   .error-modal button:hover {
     background-color: darkred;
   }
-  
+
   /* Style for the "Done" button */
 .doneBtn {
     width: 100px;
