@@ -23,11 +23,10 @@ To run this app locally:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/note-taking-app.git
+   git clone https://github.com/zolwethu/notes-app.git
 
-2. **Navigate into the project directory:**:
-3. 
-Open the index.html file in your browser to start using the app.
+2. **Navigate into the project directory:**
+3. **Open the index.html file in your browser to start using the app.**
 
 ## Usage
 
@@ -54,7 +53,7 @@ Click "Undo" to revert the note back to its original state.
 Folder Structure
 css
 Copy code
-note-taking-app/
+notes-app/
 │
 ├── index.html      # The main HTML file containing the entire app (HTML, CSS, JavaScript)
 This project is designed to run as a single HTML file with embedded CSS and JavaScript for simplicity.
