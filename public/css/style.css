@@ -160,7 +160,7 @@ li span {
     left: 50%;
     transform: translate(-50%, -50%);
     width: 400px;
-    height: 300px;
+    height: 350px;
     background-color: white;
     border: 1px solid #ccc;
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3);
@@ -241,6 +241,7 @@ input:focus, textarea:focus {
     margin: 10px;
 }
 
+
 #closeBtn, .deleteBtn {
     background-color: #BB2233;
 }
@@ -302,7 +303,6 @@ input:focus, textarea:focus {
     background-color: darkred;
   }
 
-  /* Style for the "Done" button */
 .doneBtn {
     width: 100px;
     background-color: #08b132;

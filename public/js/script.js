@@ -85,8 +85,8 @@ function displayNotes() {
         <h3 class="note-title">${note.title}</h3>
         <p class="note-text">${note.text}</p>
         <div class="note-btns">
-            <button class="editBtn" onclick="editNote(${note.id})"><i class="fa-solid fa-pen"></i> Edit</button>
-            <button class="deleteBtn" onclick="deleteNote(${note.id})"><i class="fa-solid fa-trash"></i> Delete</button>
+            <button class="editBtn" onclick="editNote(${note.id})" title="Edit Note"><i class="fa-solid fa-pen"></i></button>
+            <button class="deleteBtn" onclick="deleteNote(${note.id})" title="Delete Note"><i class="fa-solid fa-trash"></i></button>
             <button class="doneBtn" onclick="markAsDone(${note.id})">${note.completed ? 'Undo' : 'Done'}</button>
         </div>
     </div>
