@@ -322,7 +322,7 @@ input:focus, textarea:focus {
 
   .completed .note-title {
     text-decoration: line-through;
-    color:#E09145;
+    color:gray;
   }
   
   .completed .note-text {
