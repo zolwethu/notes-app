@@ -1,10 +1,10 @@
-const http = require('http');
-const fs = require('fs');
-const path = require('path');
+import http from 'http';
+import fs from 'fs';
+import path from 'path';
 
 const server = http.createServer((req, res) => {
   if (req.url === '/') {
-    const filePath = path.join(__dirname, 'public','index.html'); 
+    const filePath = path.join(__dirname, 'public', 'index.html');
     fs.readFile(filePath, (err, data) => {
       if (err) {
         res.statusCode = 500;
