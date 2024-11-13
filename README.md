@@ -19,14 +19,28 @@ A simple note-taking application built using **HTML**, **CSS**, and **JavaScript
 
 ## Installation
 
-To run this app locally:
+## Prerequisites
 
-1. **Clone the repository**:
+
+Before getting started, ensure you have the following tools installed:
+- [Git](https://git-scm.com/)
+- [Visual Studio Code](https://code.visualstudio.com/) or another code editor of your choice
+- [Node.js](https://nodejs.org/) (if applicable, for JavaScript/Node.js projects)
+
+---
+
+## Installation
+
+1. **Clone the repository:**
+
+   Open your terminal or command prompt and run the following command to clone the repository:
+
    ```bash
    git clone https://github.com/zolwethu/notes-app.git
-
+   
 2. **Navigate into the project directory:**
-3. **Open the index.html file in your browser to start using the app.**
+3. 
+4. **Open the index.html file in your browser to start using the app.**
 
 ## Usage
 
