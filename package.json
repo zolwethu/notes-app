@@ -2,6 +2,7 @@
   "dependencies": {
     "express": "^4.21.1"
   },
+  "type": "module",
   "name": "notes-app",
   "version": "1.0.0",
   "main": "script.js",
